@@ -7,11 +7,6 @@
 char data[MAX_LEN] = {0};
 char text[MAX_LEN];
 
-/*
-  ./bfi <input-file>
-  echo "<input-data>" | ./bfi
-*/
-
 int main(int argc, char *argv[]) {
   /* parse args, if no file is provided, read from STDIN */     
   int fd = 0;
